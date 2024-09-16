@@ -1,0 +1,56 @@
+body {
+  margin:0; 
+  padding:0; 
+  background-color:#E6B9A6;
+  font-family:Sans-Serif;
+}
+.heading{ 
+  background-color:#2F3645;
+  height:5rem;
+  margin-top:0px;
+  color:#EEEDEB;
+  text-align:center;
+  line-height:5rem;
+}
+.option { 
+ display:flex; 
+ gap:20px;
+ justify-content:center;
+}
+.choice { 
+ height:150px;
+ width:150px;
+}
+img:hover {
+  border:5px solid black;
+  cursor:pointer;
+}
+img{
+  height:150px;
+  border-radius:50%;
+ width:150px;
+ object-fit:cover;
+}
+.score-board {
+  display:flex;
+  justify-content:center;
+  gap:70px;
+} 
+.score {
+  text-align:center; 
+  font-size:1.2rem;
+}
+#player-score , #comp-score {
+  font-size:2rem;
+}
+.msg-box {
+ display:flex;
+  font-size:1.5rem;
+  justify-content:center;
+  align-items:center;
+}
+#msg { 
+  padding:1rem;
+  background-color:#939185;
+  border-radius:1rem;
+}
